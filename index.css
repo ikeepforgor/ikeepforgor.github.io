@@ -4,6 +4,54 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.heading1 {
+.textcenter {
     text-align: center;
+}
+.imagecenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h2 {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+a {
+    color: #6464ff;
+}
+
+.spoiler{
+    background-color: rgb(15, 15, 15);
+    color: transparent;
+    user-select: none;
+    border-radius: 5px;
+}
+  
+  .spoiler:hover{
+    background-color: inherit;
+    color: inherit;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
